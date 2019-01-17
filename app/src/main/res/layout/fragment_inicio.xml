@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inicio"
+    >
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_weight="1">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/perfil"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+<TextView
+    android:id="@+id/n_perfil"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="JUAN CAMILO RIASCOS CARVAJAL"
+    android:textAlignment="center"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:textColor="#2A2A2A"
+    android:layout_marginTop="15dp"/>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_gravity="center"
+          android:layout_margin="5dp">
+
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID:"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            />
+<TextView
+    android:id="@+id/id_perfil"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:text=" Juanchito"
+    android:textStyle="bold"
+    android:textSize="18sp"
+    />
+
+      </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:weightSum="3"
+        android:layout_weight="1">
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/sis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="120"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:textColor="#034E84"
+                android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="mmHg"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#757575"
+            android:textAlignment="center"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIS"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#034E84"
+            android:textAlignment="center"
+            android:layout_margin="10dp"/>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/dias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="68"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:textColor="#034E84"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="mmHg"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#757575"
+                android:textAlignment="center"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DIAS"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#034E84"
+                android:textAlignment="center"
+                android:layout_margin="10dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/pls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="70"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:textColor="#034E84"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rpm"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#757575"
+                android:textAlignment="center"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PULS"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#034E84"
+                android:textAlignment="center"
+                android:layout_margin="10dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Última medición:"
+            android:textSize="20sp"
+            android:textColor="#034E84"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/m_fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20 / 5 / 2019"
+            android:textSize="20sp"
+            android:textColor="#034E84"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</android.support.v7.widget.CardView>

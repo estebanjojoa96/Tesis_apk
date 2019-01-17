@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Item_home"
+        android:icon="@drawable/casa"
+        android:title="Inicio" />
+
+    <item
+        android:id="@+id/Item_medicion"
+        android:icon="@drawable/cardiograma"
+        android:title="Mediciónes" />
+
+    <item
+        android:id="@+id/Item_graficas"
+        android:icon="@drawable/grafico"
+        android:title="Gráficas" />
+
+    <item
+        android:id="@+id/Item_medicamentos"
+        android:icon="@drawable/drogas"
+        android:title="Medicamentos" />
+    <item
+        android:id="@+id/Item_control"
+        android:icon="@drawable/lista"
+        android:title="Factores" />
+</menu>
