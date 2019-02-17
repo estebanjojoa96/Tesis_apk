@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="7dp"
+    android:layout_margin="10dp">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:weightSum="3"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/sis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="120"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:textColor="#157FCC"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="mmHg"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#157FCC"
+                android:textAlignment="center"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SIS"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#157FCC"
+                android:textAlignment="center"
+                android:layout_margin="10dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/dias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="68"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:textColor="#157FCC"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="mmHg"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#157FCC"
+                android:textAlignment="center"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DIAS"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#157FCC"
+                android:textAlignment="center"
+                android:layout_margin="10dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/pls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="70"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:textColor="#157FCC"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rpm"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#157FCC"
+                android:textAlignment="center"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PULS"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#157FCC"
+                android:textAlignment="center"
+                android:layout_margin="10dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_margin="5dp"
+           android:layout_gravity="center">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Fecha:"
+           android:textSize="20sp"
+           android:textColor="#157FCC"
+           android:layout_marginRight="5dp"/>
+
+           <TextView
+               android:id="@+id/m_fechas"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="12/05/2019"
+               android:textSize="20sp"
+               android:textColor="#157FCC"
+               android:layout_marginRight="28dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Estado"
+               android:textSize="20sp"
+               android:textColor="#157FCC"
+               />
+
+           <ImageView
+               android:id="@+id/estado"
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:src="@drawable/visto"
+               android:layout_marginLeft="7dp"/>
+       </LinearLayout>
+   </LinearLayout>
+
+</android.support.v7.widget.CardView>
