@@ -15,7 +15,7 @@ import com.jjoe64.graphview.series.LineGraphSeries;
 public class Home extends AppCompatActivity {
 
     BottomNavigationView btn_navigation;
-    GraphView graph = (GraphView) findViewById(R.id.graph);
+   
 
 
     @Override
