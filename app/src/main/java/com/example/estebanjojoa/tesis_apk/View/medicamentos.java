@@ -1,4 +1,4 @@
-package com.example.estebanjojoa.tesis_apk;
+package com.example.estebanjojoa.tesis_apk.View;
 
 
 import android.os.Bundle;
@@ -7,14 +7,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.estebanjojoa.tesis_apk.R;
+
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class factores extends Fragment {
+public class medicamentos extends Fragment {
 
 
-    public factores() {
+    public medicamentos() {
         // Required empty public constructor
     }
 
@@ -23,7 +25,7 @@ public class factores extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_factores, container, false);
+        return inflater.inflate(R.layout.fragment_medicamentos, container, false);
     }
 
 }

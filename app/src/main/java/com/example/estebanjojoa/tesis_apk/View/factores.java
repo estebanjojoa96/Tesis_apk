@@ -1,4 +1,4 @@
-package com.example.estebanjojoa.tesis_apk;
+package com.example.estebanjojoa.tesis_apk.View;
 
 
 import android.os.Bundle;
@@ -7,34 +7,25 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.jjoe64.graphview.GraphView;
-import com.jjoe64.graphview.series.DataPoint;
-import com.jjoe64.graphview.series.LineGraphSeries;
+import com.example.estebanjojoa.tesis_apk.R;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class graficas extends Fragment {
+public class factores extends Fragment {
 
 
-    public graficas() {
+    public factores() {
         // Required empty public constructor
     }
-
-
-
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_graficas, container, false);
-
-
-
-
+        return inflater.inflate(R.layout.fragment_factores, container, false);
     }
 
 }

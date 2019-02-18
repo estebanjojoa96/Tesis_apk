@@ -1,6 +1,5 @@
 package com.example.estebanjojoa.tesis_apk;
 
-import android.app.FragmentTransaction;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
@@ -8,9 +7,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import com.jjoe64.graphview.GraphView;
-import com.jjoe64.graphview.series.DataPoint;
-import com.jjoe64.graphview.series.LineGraphSeries;
+import com.example.estebanjojoa.tesis_apk.View.factores;
+import com.example.estebanjojoa.tesis_apk.View.graficas;
+import com.example.estebanjojoa.tesis_apk.View.inicio;
+import com.example.estebanjojoa.tesis_apk.View.medicamentos;
+import com.example.estebanjojoa.tesis_apk.View.mediciones;
 
 public class Home extends AppCompatActivity {
 
